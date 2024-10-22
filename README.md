@@ -31,6 +31,7 @@
 DOCKER COMPOSE
 
  **Segue os pasos da guía de iniciación de docker-compose, e explica coas túas palabras os pasos que segues e qué fan**  
+ 
    **Paso 1: Configuración**  
     Crear un directorio para el proyecto `mkdir dockercompose`, crear el archivo con `touch app.py`.
   
@@ -52,6 +53,7 @@ DOCKER COMPOSE
     Por ejemplo, modificando `compose.yml`, ejecutando servicios en segundo plano como `docker compose up -d`, ver los contenedores en ejecución con `docker compose ps`, etc.
 
 **Agora que sabes algo máis de docker-compose, crea un arquivo (ou varios arquivos) de configuración que ó ser lanzados cun `docker-compose up`, resulten nunha rede docker á que estean conectados 3 contenedores, explica os parámetros do .yaml usado:**
+
    **version**: Indica la versión de Docker Compose que se está utilizando. La versión 3.8 es compatible con las características más recientes.
   
    **services**: Define los diferentes contenedores que componen tu aplicación. Cada servicio se ejecuta en su propio contenedor.
@@ -75,6 +77,7 @@ DOCKER COMPOSE
    **my_network**: Crea una red llamada `my_network` utilizando el driver bridge, que es la configuración de red predeterminada en Docker. Esto permite que los contenedores se comuniquen entre sí.
 
 **Busca e proba 4 parámetros e configuracións diferentes que podes incluir no arquivo compose, explica qué fan. (por exemplo diferentes cousas que facer coa opción RUN):**
+
    **environment**: Se utiliza para definir variables de entorno dentro del contenedor.
   
    **volumes**: Se utiliza para montar un directorio de la máquina host en el contenedor. Esto es útil para compartir datos o persistir cambios realizados en el contenedor.
