@@ -30,14 +30,14 @@
 
 DOCKER COMPOSE
 
-- **Segue os pasos da guía de iniciación de docker-compose, e explica coas túas palabras os pasos que segues e qué fan**  
-  - **Paso 1: Configuración**  
+ **Segue os pasos da guía de iniciación de docker-compose, e explica coas túas palabras os pasos que segues e qué fan**  
+   **Paso 1: Configuración**  
     Crear un directorio para el proyecto `mkdir dockercompose`, crear el archivo con `touch app.py`.
   
-  - **Paso 2: Definir servicios en un archivo compose**  
+   **Paso 2: Definir servicios en un archivo compose**  
     Crear el archivo con `touch compose.yml`.
   
-  - **Paso 3: Crea y ejecuta tu aplicación con compose**  
+   **Paso 3: Crea y ejecuta tu aplicación con compose**  
     Ejecutar los servicios con `docker compose up`, acceder a la aplicación abriendo el navegador y visitando `http://localhost:8000`, verificar imágenes locales con `docker image ls` y detener la aplicación con `docker compose down`.
   
    **Paso 4: Edición para usar compose watch**  
