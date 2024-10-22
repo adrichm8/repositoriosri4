@@ -51,7 +51,7 @@
   - **Paso 8: Experimentar con otros comandos**  
     Por ejemplo, modificando `compose.yml`, ejecutando servicios en segundo plano como `docker compose up -d`, ver los contenedores en ejecución con `docker compose ps`, etc.
 
-Agora que sabes algo máis de docker-compose, crea un arquivo (ou varios arquivos) de configuración que ó ser lanzados cun `docker-compose up`, resulten nunha rede docker á que estean conectados 3 contenedores, explica os parámetros do .yaml usado:
+**Agora que sabes algo máis de docker-compose, crea un arquivo (ou varios arquivos) de configuración que ó ser lanzados cun `docker-compose up`, resulten nunha rede docker á que estean conectados 3 contenedores, explica os parámetros do .yaml usado:**
   - **version**: Indica la versión de Docker Compose que se está utilizando. La versión 3.8 es compatible con las características más recientes.
   
   - **services**: Define los diferentes contenedores que componen tu aplicación. Cada servicio se ejecuta en su propio contenedor.
