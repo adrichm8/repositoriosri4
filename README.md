@@ -74,7 +74,7 @@
   
   - **my_network**: Crea una red llamada `my_network` utilizando el driver bridge, que es la configuración de red predeterminada en Docker. Esto permite que los contenedores se comuniquen entre sí.
 
-Busca e proba 4 parámetros e configuracións diferentes que podes incluir no arquivo compose, explica qué fan. (por exemplo diferentes cousas que facer coa opción RUN):
+**Busca e proba 4 parámetros e configuracións diferentes que podes incluir no arquivo compose, explica qué fan. (por exemplo diferentes cousas que facer coa opción RUN):**
   - **environment**: Se utiliza para definir variables de entorno dentro del contenedor.
   
   - **volumes**: Se utiliza para montar un directorio de la máquina host en el contenedor. Esto es útil para compartir datos o persistir cambios realizados en el contenedor.
