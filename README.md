@@ -53,3 +53,4 @@ DOCKER COMPOSE
       ~volumes: Se utiliza para montar un directorio de la máquina host en el contenedor. Esto es útil para compartir datos o persistir cambios realizados en el contenedor.
       ~depends_on: Se utiliza para definir dependencias entre servicios. Asegura que un servicio se inicie antes que otro.
       ~restart: Se utiliza para definir la política de reinicio de los contenedores. Puede ser útil para asegurar que un servicio esté siempre disponible.
+
